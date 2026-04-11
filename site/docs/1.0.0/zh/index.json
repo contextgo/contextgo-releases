@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "locale": "zh",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "docs": {
+    "badge": "文档中心",
+    "title": "ContextGo 文档",
+    "description": "面向客户的产品文档，覆盖初始化、Agent、Hooks、定时任务、技能市场、远程访问和发布运维。",
+    "featuredLabel": "文档结构",
+    "featuredDescription": "ContextGo 文档分成三层：Guides 讲如何开始，Features 讲产品具体能力，Operations 讲远程访问、云身份和发布运维如何真正工作。",
+    "categories": [
+      {
+        "id": "guides",
+        "title": "Guides",
+        "description": "先从这里理解产品模型、安装链路，以及第一次上手时应该怎么建立起可工作的环境。"
+      },
+      {
+        "id": "features",
+        "title": "Features",
+        "description": "这一层说明用户真正会操作的能力面：Agents、Hooks、定时任务、Runtimes、Connectors 和技能市场。"
+      },
+      {
+        "id": "operations",
+        "title": "Operations",
+        "description": "这一层说明云账号、远程访问、发布运维和排障路径。"
+      }
+    ],
+    "entries": [
+      {
+        "slug": "quick-start",
+        "eyebrow": "快速开始",
+        "title": "在第一台桌面设备上完成 ContextGo 初始化",
+        "summary": "安装桌面端、登录云账号、绑定当前设备，并确认本地主机已经为移动端和浏览器访问准备完成。",
+        "readingTime": "5 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "guides"
+      },
+      {
+        "slug": "product-model",
+        "eyebrow": "产品模型",
+        "title": "先理解 ContextGo 的产品模型，再扩大使用范围",
+        "summary": "先厘清桌面主机、移动壳、云账号、WebUI 和 release 仓库之间的关系，再去扩展更多设备和团队使用。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "guides"
+      },
+      {
+        "slug": "agent-workspace",
+        "eyebrow": "Agent",
+        "title": "Agent 入口、Assistants 管理与工作模型",
+        "summary": "理解 Agent 入口是干什么的、Assistants 管理和它有什么区别，以及为什么这些概念不应该混在一个模糊设置里。",
+        "readingTime": "7 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "agent-collaboration",
+        "eyebrow": "协作模式",
+        "title": "Harness 模式与 Agent 协作工作流",
+        "summary": "解释本地 harness 模式如何与远端 workflow 共存，以及为什么 Agent 协作模式是产品的一等工作方式。",
+        "readingTime": "7 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "hooks-overview",
+        "eyebrow": "Hooks",
+        "title": "在合适的时机用 Hooks 扩展工作流",
+        "summary": "Hooks 是在执行事件附近插入受控行为的机制。用户需要看到清晰的触发模型，而不是一个孤立配置表单。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "scheduled-tasks",
+        "eyebrow": "定时任务",
+        "title": "定时任务与 Cron 驱动自动化",
+        "summary": "解释周期执行是如何工作的、哪些自动化适合放进定时任务，以及长时间运行场景下用户应该关注什么。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "skill-market",
+        "eyebrow": "技能市场",
+        "title": "技能市场与可复用能力包",
+        "summary": "让用户理解技能市场如何扩展 ContextGo、如何看待本地 skill 与下载 skill，以及安装信任边界应该怎么讲。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "runtime-management",
+        "eyebrow": "运行时",
+        "title": "本地运行时与 CLI 健康管理",
+        "summary": "安装支持的运行时、修复损坏的 CLI 环境，并理解为什么“已安装”并不等于“已可用”。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "connectors-and-channels",
+        "eyebrow": "Connectors",
+        "title": "Connectors、渠道与发布路径",
+        "summary": "解释来源接入和渠道发布如何构成同一条产品链路，以及为什么 Connectors 不只是可选集成。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "remote-access",
+        "eyebrow": "远程访问",
+        "title": "ContextGo 的远程访问到底是怎么工作的",
+        "summary": "理解桌面主机模型、为什么远程访问依赖设备侧稳定连接，以及移动端应该向用户呈现什么预期。",
+        "readingTime": "7 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      },
+      {
+        "slug": "cloud-account",
+        "eyebrow": "云账号",
+        "title": "ContextGo 云账号到底同步了什么",
+        "summary": "澄清云层的职责、账号会绑定哪些状态，以及为什么它不应该被描述成完整的云执行环境。",
+        "readingTime": "6 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      },
+      {
+        "slug": "updates-and-troubleshooting",
+        "eyebrow": "更新与排障",
+        "title": "更新、版本发布与常见排障入口",
+        "summary": "把桌面端内更新、官网下载页和 release 仓库之间的关系讲清楚，并给用户一个统一的运维排障入口。",
+        "readingTime": "7 分钟",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "article": {
+    "slug": "release-operations-source-of-truth",
+    "eyebrow": "Release Operations",
+    "title": "Release operations should flow through contextgo-releases",
+    "summary": "The website, download center, and in-app updater all become simpler when one release repository acts as the canonical product-release source of truth.",
+    "readingTime": "5 min",
+    "publishedAt": "2026-03-30",
+    "html": "<h2 id=\"one-release-repository-reduces-ambiguity\">One release repository reduces ambiguity</h2>\n<p>If the website, GitHub Release assets, and desktop updater all point at different places, users cannot tell which version is real. The release repository fixes that by becoming the single factual source for installable artifacts.</p>\n<p>This lets contextgo.io render download information from the same place the desktop client checks for updates.</p>\n<h2 id=\"what-belongs-in-the-release-repository\">What belongs in the release repository</h2>\n<p>Build artifacts, checksums, manifests, and release notes belong there. Long-form docs, blog posts, and marketing pages do not. Those should stay on the website side.</p>"
+  }
+}

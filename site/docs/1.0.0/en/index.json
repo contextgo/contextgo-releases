@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "locale": "en",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "docs": {
+    "badge": "Documentation",
+    "title": "ContextGo Docs",
+    "description": "Customer-facing documentation for setup, agents, hooks, scheduled tasks, skill market, remote access, and release operations.",
+    "featuredLabel": "Documentation structure",
+    "featuredDescription": "ContextGo docs split into three layers: Guides explain how to start, Features explain what the product can do, and Operations explain how remote access, cloud identity, and release workflows actually work.",
+    "categories": [
+      {
+        "id": "guides",
+        "title": "Guides",
+        "description": "Start here to understand the product model, install flow, and how users should approach the first working setup."
+      },
+      {
+        "id": "features",
+        "title": "Features",
+        "description": "These docs explain the functional surfaces users actually operate: agents, hooks, schedules, runtimes, connectors, and the skill market."
+      },
+      {
+        "id": "operations",
+        "title": "Operations",
+        "description": "These docs define cloud account behavior, remote-access mechanics, release operations, and troubleshooting guidance."
+      }
+    ],
+    "entries": [
+      {
+        "slug": "quick-start",
+        "eyebrow": "Quick Start",
+        "title": "Set up ContextGo on your first desktop",
+        "summary": "Install the desktop app, sign in, bind the current device, and confirm the local host is ready for mobile and browser access.",
+        "readingTime": "5 min",
+        "updatedAt": "2026-03-30",
+        "category": "guides"
+      },
+      {
+        "slug": "product-model",
+        "eyebrow": "Product Model",
+        "title": "Understand the ContextGo product model before you scale usage",
+        "summary": "Clarify the relationship between desktop host, mobile shell, cloud account, WebUI, and the release repository before onboarding more devices or teammates.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "guides"
+      },
+      {
+        "slug": "agent-workspace",
+        "eyebrow": "Agent",
+        "title": "Agent entry, assistants, and the working model inside ContextGo",
+        "summary": "Understand what the agent entry is for, how assistant management differs from agent entry, and why those concepts should not be collapsed into one vague settings bucket.",
+        "readingTime": "7 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "agent-collaboration",
+        "eyebrow": "Collaboration",
+        "title": "Harness mode and agent collaboration workflows",
+        "summary": "Explain how local harness mode coexists with remote workflows, and why agent collaboration is a first-class working style rather than an implementation detail.",
+        "readingTime": "7 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "hooks-overview",
+        "eyebrow": "Hooks",
+        "title": "Use hooks to extend workflows at the right moment",
+        "summary": "Hooks are the product mechanism for inserting controlled behavior around execution events. Users need a clear trigger model, not just a configuration form.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "scheduled-tasks",
+        "eyebrow": "Scheduled Tasks",
+        "title": "Scheduled tasks and cron-driven automation",
+        "summary": "Explain how periodic execution works, what kinds of automation belong in scheduled tasks, and what users should watch for in long-running operations.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "skill-market",
+        "eyebrow": "Skill Market",
+        "title": "Skill Market and reusable capability packages",
+        "summary": "Show users how the skill market expands what ContextGo can do, how to think about local versus downloadable skills, and how installation should stay trustworthy.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "runtime-management",
+        "eyebrow": "Runtimes",
+        "title": "Manage local runtimes and CLI health",
+        "summary": "Install supported runtimes, repair broken CLI environments, and understand why a runtime can be installed but still not be usable yet.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "connectors-and-channels",
+        "eyebrow": "Connectors",
+        "title": "Connectors, channels, and publishing paths",
+        "summary": "Explain how sources and channels fit into ContextGo, and why connectors are part of the product core rather than optional integrations.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "features"
+      },
+      {
+        "slug": "remote-access",
+        "eyebrow": "Remote Access",
+        "title": "How remote access works in ContextGo",
+        "summary": "Understand the desktop-host model, why remote access depends on a stable device-side connection, and what users should expect on mobile.",
+        "readingTime": "7 min",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      },
+      {
+        "slug": "cloud-account",
+        "eyebrow": "Cloud Account",
+        "title": "What the ContextGo cloud account syncs",
+        "summary": "Clarify what the cloud layer is for, what gets linked to the account, and why it should not be confused with full cloud execution.",
+        "readingTime": "6 min",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      },
+      {
+        "slug": "updates-and-troubleshooting",
+        "eyebrow": "Updates",
+        "title": "Updates, releases, and common troubleshooting paths",
+        "summary": "Document how in-app updates relate to the website download center and release repository, and give users a single operational troubleshooting entry point.",
+        "readingTime": "7 min",
+        "updatedAt": "2026-03-30",
+        "category": "operations"
+      }
+    ]
+  }
+}

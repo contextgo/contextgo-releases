@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "locale": "en",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "article": {
+    "slug": "connectors-and-channels",
+    "eyebrow": "Connectors",
+    "title": "Connectors, channels, and publishing paths",
+    "summary": "Explain how sources and channels fit into ContextGo, and why connectors are part of the product core rather than optional integrations.",
+    "readingTime": "6 min",
+    "updatedAt": "2026-03-30",
+    "category": "features",
+    "html": "<h2 id=\"connectors-are-the-intake-layer\">Connectors are the intake layer</h2>\n<p>Connectors are how ContextGo sees the real working context. Files, docs, drives, chats, and structured systems all enter through this layer before agents, hooks, or scheduled tasks can do useful work.</p>\n<p>That is why connector documentation should not read like a simple list of integrations. It should explain how connected sources become reusable context across multiple workflows.</p>\n<h2 id=\"channels-are-where-work-gets-routed-outward\">Channels are where work gets routed outward</h2>\n<p>Channels represent the outward side of the workflow: publishing, team communication, or delivery surfaces. In many cases, the same context that was ingested through connectors later exits through one or more channels.</p>\n<p>This makes connectors and channels two ends of the same product story: context comes in, gets shaped, and then moves to the place where action happens.</p>\n<h2 id=\"what-users-need-to-understand\">What users need to understand</h2>\n<p>Users should know which systems are supported, what level of access is needed, and how connected context feeds agents, scheduled tasks, remote sessions, or publication flows.</p>"
+  }
+}

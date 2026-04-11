@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "locale": "en",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "article": {
+    "slug": "agent-collaboration",
+    "eyebrow": "Collaboration",
+    "title": "Harness mode and agent collaboration workflows",
+    "summary": "Explain how local harness mode coexists with remote workflows, and why agent collaboration is a first-class working style rather than an implementation detail.",
+    "readingTime": "7 min",
+    "updatedAt": "2026-03-30",
+    "category": "features",
+    "html": "<h2 id=\"harness-mode-is-a-real-product-workflow\">Harness mode is a real product workflow</h2>\n<p>Local harness mode should be kept as a supported collaboration model, not treated as a temporary development artifact. It gives users an immediate way to structure multi-agent work around the local machine they already trust.</p>\n<p>That is especially valuable for users who need an out-of-the-box collaboration pattern before they have a full remote orchestration or cloud-hosted workflow in place.</p>\n<h2 id=\"how-it-fits-with-remote-workflows\">How it fits with remote workflows</h2>\n<p>Remote workflow support does not replace harness mode. The right product story is coexistence: local harness mode for direct, device-local coordination, and remote workflow support for distributed or browser-mediated control paths.</p>\n<p>Once this is documented clearly, users stop reading the two modes as competing architectures. They become two ways to coordinate the same host-centric execution model.</p>\n<h2 id=\"what-users-need-to-know-operationally\">What users need to know operationally</h2>\n<p>Collaboration mode documentation should answer which machine executes work, where files live, how runtime availability is checked, and what remote clients can or cannot do compared with the local desktop host.</p>"
+  }
+}

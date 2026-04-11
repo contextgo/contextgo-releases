@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "exportedAt": "2026-04-11T13:24:48.336Z",
+  "sourceRef": "33f55d44",
+  "article": {
+    "slug": "desktop-host-mobile-client",
+    "eyebrow": "Remote Product",
+    "title": "Desktop host, mobile client: keep the product model explicit",
+    "summary": "Remote access only feels coherent when users understand that the desktop machine remains the host and the mobile shell stays a remote client.",
+    "readingTime": "5 min",
+    "publishedAt": "2026-03-30",
+    "html": "<h2 id=\"avoid-describing-mobile-as-a-second-execution-host\">Avoid describing mobile as a second execution host</h2>\n<p>The mobile shell is valuable because it lets users access their desktop-hosted workspace from elsewhere. That value disappears if the product story implies a full second runtime running locally on the phone.</p>\n<p>For uploads, control flows, and WebUI rendering, the right mental model is still remote access to the desktop host.</p>\n<h2 id=\"why-this-matters-for-roadmap-decisions\">Why this matters for roadmap decisions</h2>\n<p>Once the product model is clear, cloud features, tunnel design, and relay architecture become easier to explain. The control plane can evolve without pretending the compute plane has moved into the cloud or onto the handset.</p>"
+  }
+}
