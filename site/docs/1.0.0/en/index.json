@@ -2,29 +2,29 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "locale": "en",
-  "exportedAt": "2026-04-11T13:24:48.336Z",
-  "sourceRef": "33f55d44",
+  "exportedAt": "2026-04-11T17:09:31.076Z",
+  "sourceRef": "0acc7706",
   "docs": {
     "badge": "Documentation",
     "title": "ContextGo Docs",
-    "description": "Customer-facing documentation for setup, agents, hooks, scheduled tasks, skill market, remote access, and release operations.",
-    "featuredLabel": "Documentation structure",
-    "featuredDescription": "ContextGo docs split into three layers: Guides explain how to start, Features explain what the product can do, and Operations explain how remote access, cloud identity, and release workflows actually work.",
+    "description": "Official product documentation for installation, agent workflows, automation, remote access, and release operations.",
+    "featuredLabel": "Documentation layout",
+    "featuredDescription": "Use Guides for initial setup, Features for day-to-day product capabilities, and Operations for account, remote access, updates, and troubleshooting.",
     "categories": [
       {
         "id": "guides",
         "title": "Guides",
-        "description": "Start here to understand the product model, install flow, and how users should approach the first working setup."
+        "description": "Read these pages before first use. They cover installation, account sign-in, device registration, and the basic product model."
       },
       {
         "id": "features",
         "title": "Features",
-        "description": "These docs explain the functional surfaces users actually operate: agents, hooks, schedules, runtimes, connectors, and the skill market."
+        "description": "These pages document the working surfaces in the product, including agents, hooks, scheduled tasks, runtimes, connectors, and skills."
       },
       {
         "id": "operations",
         "title": "Operations",
-        "description": "These docs define cloud account behavior, remote-access mechanics, release operations, and troubleshooting guidance."
+        "description": "These pages cover cloud account behavior, remote access, software updates, release sources, and common troubleshooting steps."
       }
     ],
     "entries": [
@@ -32,108 +32,108 @@
         "slug": "quick-start",
         "eyebrow": "Quick Start",
         "title": "Set up ContextGo on your first desktop",
-        "summary": "Install the desktop app, sign in, bind the current device, and confirm the local host is ready for mobile and browser access.",
+        "summary": "Install the desktop app, sign in, register the current device, and confirm that the local host is ready for browser or mobile access.",
         "readingTime": "5 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "guides"
       },
       {
         "slug": "product-model",
         "eyebrow": "Product Model",
         "title": "Understand the ContextGo product model before you scale usage",
-        "summary": "Clarify the relationship between desktop host, mobile shell, cloud account, WebUI, and the release repository before onboarding more devices or teammates.",
+        "summary": "Review the role of the desktop host, cloud account, browser and mobile access, and the release repository before onboarding more devices or teammates.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "guides"
       },
       {
         "slug": "agent-workspace",
         "eyebrow": "Agent",
-        "title": "Agent entry, assistants, and the working model inside ContextGo",
-        "summary": "Understand what the agent entry is for, how assistant management differs from agent entry, and why those concepts should not be collapsed into one vague settings bucket.",
+        "title": "Work with agents, assistants, and runtimes",
+        "summary": "Use the agent surface to start work, manage assistants as reusable definitions, and keep runtime management separate from task entry.",
         "readingTime": "7 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "agent-collaboration",
         "eyebrow": "Collaboration",
-        "title": "Harness mode and agent collaboration workflows",
-        "summary": "Explain how local harness mode coexists with remote workflows, and why agent collaboration is a first-class working style rather than an implementation detail.",
+        "title": "Use harness mode and remote agent collaboration",
+        "summary": "Understand when work stays on the local desktop, when remote clients can participate, and what to verify before starting a collaborative session.",
         "readingTime": "7 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "hooks-overview",
         "eyebrow": "Hooks",
-        "title": "Use hooks to extend workflows at the right moment",
-        "summary": "Hooks are the product mechanism for inserting controlled behavior around execution events. Users need a clear trigger model, not just a configuration form.",
+        "title": "Configure hooks for workflow events",
+        "summary": "Define when a hook runs, what context it receives, and how to roll out hook behavior without disrupting the main task flow.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "scheduled-tasks",
         "eyebrow": "Scheduled Tasks",
-        "title": "Scheduled tasks and cron-driven automation",
-        "summary": "Explain how periodic execution works, what kinds of automation belong in scheduled tasks, and what users should watch for in long-running operations.",
+        "title": "Run scheduled tasks on a desktop host",
+        "summary": "Configure recurring workflows, confirm host and runtime requirements, and review failures before relying on unattended execution.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "skill-market",
         "eyebrow": "Skill Market",
-        "title": "Skill Market and reusable capability packages",
-        "summary": "Show users how the skill market expands what ContextGo can do, how to think about local versus downloadable skills, and how installation should stay trustworthy.",
+        "title": "Install and manage skills",
+        "summary": "Review the source of each skill, understand what it adds to the product, and keep installation, updates, and removal predictable.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "runtime-management",
         "eyebrow": "Runtimes",
-        "title": "Manage local runtimes and CLI health",
-        "summary": "Install supported runtimes, repair broken CLI environments, and understand why a runtime can be installed but still not be usable yet.",
+        "title": "Manage local runtimes and CLI status",
+        "summary": "Install supported runtimes, repair broken CLI environments, and distinguish between installed, authenticated, and ready states.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "connectors-and-channels",
         "eyebrow": "Connectors",
-        "title": "Connectors, channels, and publishing paths",
-        "summary": "Explain how sources and channels fit into ContextGo, and why connectors are part of the product core rather than optional integrations.",
+        "title": "Use connectors and channels",
+        "summary": "Connect external sources to the desktop host, route outputs to delivery channels, and document the access requirements for each integration.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "features"
       },
       {
         "slug": "remote-access",
         "eyebrow": "Remote Access",
-        "title": "How remote access works in ContextGo",
-        "summary": "Understand the desktop-host model, why remote access depends on a stable device-side connection, and what users should expect on mobile.",
+        "title": "Use remote access from the browser or mobile",
+        "summary": "Confirm host availability, understand the device-to-cloud connection, and know what the remote client can and cannot do without the desktop host.",
         "readingTime": "7 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "operations"
       },
       {
         "slug": "cloud-account",
         "eyebrow": "Cloud Account",
-        "title": "What the ContextGo cloud account syncs",
-        "summary": "Clarify what the cloud layer is for, what gets linked to the account, and why it should not be confused with full cloud execution.",
+        "title": "Manage cloud account and device binding",
+        "summary": "Use the cloud account for sign-in, device registration, and lightweight account-linked state without treating it as a full cloud execution environment.",
         "readingTime": "6 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "operations"
       },
       {
         "slug": "updates-and-troubleshooting",
         "eyebrow": "Updates",
-        "title": "Updates, releases, and common troubleshooting paths",
-        "summary": "Document how in-app updates relate to the website download center and release repository, and give users a single operational troubleshooting entry point.",
+        "title": "Check updates and troubleshoot common failures",
+        "summary": "Keep the website, the in-app updater, and the release repository aligned, then diagnose login, device, runtime, and update problems from one place.",
         "readingTime": "7 min",
-        "updatedAt": "2026-03-30",
+        "updatedAt": "2026-04-12",
         "category": "operations"
       }
     ]

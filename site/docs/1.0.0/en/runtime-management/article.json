@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "locale": "en",
-  "exportedAt": "2026-04-11T13:24:48.336Z",
-  "sourceRef": "33f55d44",
+  "exportedAt": "2026-04-11T17:09:31.076Z",
+  "sourceRef": "0acc7706",
   "article": {
     "slug": "runtime-management",
     "eyebrow": "Runtimes",
-    "title": "Manage local runtimes and CLI health",
-    "summary": "Install supported runtimes, repair broken CLI environments, and understand why a runtime can be installed but still not be usable yet.",
+    "title": "Manage local runtimes and CLI status",
+    "summary": "Install supported runtimes, repair broken CLI environments, and distinguish between installed, authenticated, and ready states.",
     "readingTime": "6 min",
-    "updatedAt": "2026-03-30",
+    "updatedAt": "2026-04-12",
     "category": "features",
-    "html": "<h2 id=\"installed-is-not-the-same-as-ready\">Installed is not the same as ready</h2>\n<p>ContextGo can install or repair supported local runtimes, but a successful install only means the CLI exists on the machine. Some runtimes still need provider login or API configuration before they can actually run work.</p>\n<p>The product should continue to keep these states separate in the UI so users do not read a green install result as a guarantee that every runtime is fully authenticated and ready.</p>\n<h2 id=\"repair-flows-should-be-conservative\">Repair flows should be conservative</h2>\n<p>A repair action is meant to restore the expected CLI installation path, clear obviously broken local caches, and then re-run detection. It should not silently rewrite unrelated user tools or global configuration beyond the runtime it owns.</p>\n<p>If your team supports multiple runtimes, keep the runtime manager explicit about which providers are supported and which ones still need user action after installation.</p>\n<h2 id=\"recommended-operational-model\">Recommended operational model</h2>\n<p>Treat runtime installation as a product convenience layer on top of official vendor CLIs. This keeps ContextGo responsible for discovery, install orchestration, repair, and status display, while leaving provider authentication in the official path that users already trust.</p>"
+    "html": "<h2 id=\"runtime-states\">Runtime states</h2>\n<p>Treat runtime status as a sequence of states:</p>\n<ul>\n<li>Not installed</li>\n<li>Installed</li>\n<li>Authenticated or configured</li>\n<li>Ready</li>\n</ul>\n<p>An installed runtime may still be unusable until provider login or API configuration has been completed.</p>\n<h2 id=\"install-and-repair\">Install and repair</h2>\n<p>Use runtime management to install supported CLIs, re-run detection, and repair a broken installation path. Repair should stay limited to the runtime being managed.</p>\n<p>Do not treat repair as a general cleanup tool for the whole machine. It should not overwrite unrelated developer tools or global configuration.</p>\n<h2 id=\"readiness-checklist\">Readiness checklist</h2>\n<p>Before starting work with a runtime, confirm:</p>\n<ul>\n<li>the CLI is detected</li>\n<li>required provider login is complete</li>\n<li>required API keys or configuration are available</li>\n<li>the runtime can pass a basic health check</li>\n</ul>\n<h2 id=\"administrative-note\">Administrative note</h2>\n<p>ContextGo manages discovery, installation, repair, and status display. Provider authentication should still follow the official workflow for that provider.</p>"
   }
 }

@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "locale": "en",
-  "exportedAt": "2026-04-11T13:24:48.336Z",
-  "sourceRef": "33f55d44",
+  "exportedAt": "2026-04-11T17:09:31.076Z",
+  "sourceRef": "0acc7706",
   "article": {
     "slug": "remote-access",
     "eyebrow": "Remote Access",
-    "title": "How remote access works in ContextGo",
-    "summary": "Understand the desktop-host model, why remote access depends on a stable device-side connection, and what users should expect on mobile.",
+    "title": "Use remote access from the browser or mobile",
+    "summary": "Confirm host availability, understand the device-to-cloud connection, and know what the remote client can and cannot do without the desktop host.",
     "readingTime": "7 min",
-    "updatedAt": "2026-03-30",
+    "updatedAt": "2026-04-12",
     "category": "operations",
-    "html": "<h2 id=\"desktop-is-the-source-of-truth\">Desktop is the source of truth</h2>\n<p>ContextGo remote access is not a separate cloud-hosted copy of your app. The desktop machine keeps running the real workspace, tools, files, and WebUI session.</p>\n<p>Mobile and browser clients connect back to that desktop host through the remote layer. This is why a device can appear online, unavailable, or not provisioned depending on the state of the host and the remote bridge.</p>\n<h2 id=\"why-a-stable-device-side-connection-matters\">Why a stable device-side connection matters</h2>\n<p>A public remote page only works when the desktop host has an active outbound connection to the official cloud relay. The hosted experience depends on the device keeping that authenticated relay session alive.</p>\n<p>The underlying transport can evolve, but the product principle does not change: the device side still has to remain connected and authenticated before the remote page becomes usable.</p>\n<ul>\n<li>Desktop host publishes availability</li>\n<li>Cloud account maps devices to the signed-in user</li>\n<li>Remote page becomes useful only when the host is reachable</li>\n</ul>\n<h2 id=\"what-mobile-actually-runs\">What mobile actually runs</h2>\n<p>The mobile shell is a remote control surface. It reuses the existing WebUI and host-side workflows instead of replacing the desktop host with a separate mobile-native execution model.</p>\n<p>That means uploads, runtime execution, and local workspace access still terminate on the desktop side. Mobile acts as the control surface, not the primary compute environment.</p>"
+    "html": "<h2 id=\"host-requirements\">Host requirements</h2>\n<p>Remote access depends on a registered desktop host. The desktop keeps the real workspace, files, local tools, runtimes, and active WebUI session.</p>\n<p>Before opening a remote session, confirm:</p>\n<ul>\n<li>the desktop is signed in</li>\n<li>the device is registered to the current account</li>\n<li>remote access is enabled or provisioned</li>\n<li>the host has an active network connection</li>\n</ul>\n<h2 id=\"connection-model\">Connection model</h2>\n<p>The remote client does not run a separate hosted copy of ContextGo. It connects through the account and relay layer back to the desktop host.</p>\n<p>If the host loses connectivity or exits the session, the remote client cannot continue the task independently.</p>\n<h2 id=\"mobile-behavior\">Mobile behavior</h2>\n<p>The mobile app or mobile browser session is a control surface for the host. Uploads, file access, runtime execution, and connector access still resolve on the desktop side.</p>\n<h2 id=\"if-remote-access-is-unavailable\">If remote access is unavailable</h2>\n<p>Check the following in order:</p>\n<ol>\n<li>Confirm the correct account is signed in.</li>\n<li>Confirm the desktop device is shown in the device list.</li>\n<li>Confirm the host is online and has not lost its outbound connection.</li>\n<li>Confirm local security or network policy is not blocking the device-side connection.</li>\n</ol>"
   }
 }
