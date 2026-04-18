@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "locale": "en",
-  "exportedAt": "2026-04-18T09:24:55.378Z",
-  "sourceRef": "3bb18f059a2940cf409f69683a99e15a6922eb6e",
+  "exportedAt": "2026-04-18T14:28:46.240Z",
+  "sourceRef": "6b84df6097bbff48f6fe3f9b45f6aa8dd68abb56",
   "blog": {
     "badge": "Blog",
     "title": "ContextGo Product Journal and Operational Notes",
@@ -10,6 +10,14 @@
     "featuredLabel": "Journal brief",
     "featuredDescription": "Each note should explain the product boundary ContextGo is choosing, how it changes real usage, and why it also matters operationally.",
     "entries": [
+      {
+        "slug": "why-we-built-contextgo",
+        "eyebrow": "Product Manifesto",
+        "title": "Why we built ContextGo",
+        "summary": "ContextGo is not trying to become another chat shell. It is trying to organize agents, project context, connectors, execution environments, and remote collaboration into one system that can actually sustain real work.",
+        "readingTime": "8 min",
+        "publishedAt": "2026-04-18"
+      },
       {
         "slug": "context-before-agents",
         "eyebrow": "Product Model",

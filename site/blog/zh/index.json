@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "locale": "zh",
-  "exportedAt": "2026-04-18T09:24:55.378Z",
-  "sourceRef": "3bb18f059a2940cf409f69683a99e15a6922eb6e",
+  "exportedAt": "2026-04-18T14:28:46.240Z",
+  "sourceRef": "6b84df6097bbff48f6fe3f9b45f6aa8dd68abb56",
   "blog": {
     "badge": "博客",
     "title": "ContextGo 产品刊物与操作说明",
@@ -10,6 +10,14 @@
     "featuredLabel": "刊物说明",
     "featuredDescription": "每篇文章都应该回答三个问题：ContextGo 选择了什么边界、它会怎样影响真实使用，以及为什么它对发布或运维同样重要。",
     "entries": [
+      {
+        "slug": "why-we-built-contextgo",
+        "eyebrow": "产品宣言",
+        "title": "为什么我们要做 ContextGo",
+        "summary": "ContextGo 要解决的，不是“再做一个聊天壳”，而是把 Agent、项目上下文、连接器、执行环境和远程协作组织成一个真正能长期工作的系统。",
+        "readingTime": "8 分钟",
+        "publishedAt": "2026-04-18"
+      },
       {
         "slug": "context-before-agents",
         "eyebrow": "产品模型",
