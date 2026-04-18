@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
   "locale": "en",
-  "exportedAt": "2026-04-11T17:09:31.076Z",
-  "sourceRef": "0acc7706",
+  "exportedAt": "2026-04-18T09:24:55.378Z",
+  "sourceRef": "3bb18f059a2940cf409f69683a99e15a6922eb6e",
   "blog": {
     "badge": "Blog",
-    "title": "Product Notes and Operational Writing",
-    "description": "Use the blog for product rationale, architecture decisions, and release-operational changes that matter to users or admins.",
-    "featuredLabel": "Editorial direction",
-    "featuredDescription": "ContextGo blog content should answer three questions clearly: what changed, why it matters, and how it affects real workflows.",
+    "title": "ContextGo Product Journal and Operational Notes",
+    "description": "This journal explains ContextGo's product model, remote-access boundaries, and release-operational decisions so the public story matches the real delivery model.",
+    "featuredLabel": "Journal brief",
+    "featuredDescription": "Each note should explain the product boundary ContextGo is choosing, how it changes real usage, and why it also matters operationally.",
     "entries": [
       {
         "slug": "context-before-agents",
         "eyebrow": "Product Model",
         "title": "Why ContextGo starts from context before agents",
-        "summary": "The product is not trying to create another chat surface first. It starts by connecting the working context so agents can operate inside real workflows.",
-        "readingTime": "4 min",
+        "summary": "ContextGo does not start from a chat box. It starts from a working context layer that connects files, tasks, docs, channels, and runtime state.",
+        "readingTime": "7 min",
         "publishedAt": "2026-03-30"
       },
       {
         "slug": "release-operations-source-of-truth",
         "eyebrow": "Release Operations",
         "title": "Release operations should flow through contextgo-releases",
-        "summary": "The website, download center, and in-app updater all become simpler when one release repository acts as the canonical product-release source of truth.",
-        "readingTime": "5 min",
+        "summary": "Website downloads, GitHub releases, and desktop updates should read from one factual source. Otherwise users cannot tell which version is actually real.",
+        "readingTime": "7 min",
         "publishedAt": "2026-03-30"
       },
       {
         "slug": "desktop-host-mobile-client",
         "eyebrow": "Remote Product",
         "title": "Desktop host, mobile client: keep the product model explicit",
-        "summary": "Remote access only feels coherent when users understand that the desktop machine remains the host and the mobile shell stays a remote client.",
-        "readingTime": "5 min",
+        "summary": "Remote access only stays coherent when the product is explicit: the desktop remains the real execution host, while browser and mobile remain remote clients.",
+        "readingTime": "7 min",
         "publishedAt": "2026-03-30"
       }
     ]

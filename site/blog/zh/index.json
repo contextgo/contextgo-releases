@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
   "locale": "zh",
-  "exportedAt": "2026-04-11T17:09:31.076Z",
-  "sourceRef": "0acc7706",
+  "exportedAt": "2026-04-18T09:24:55.378Z",
+  "sourceRef": "3bb18f059a2940cf409f69683a99e15a6922eb6e",
   "blog": {
     "badge": "博客",
-    "title": "产品说明与运维写作",
-    "description": "博客用于承载产品思路、架构决策，以及对用户和管理员真正有影响的发布运维变化。",
-    "featuredLabel": "编辑方向",
-    "featuredDescription": "ContextGo 的博客内容应该明确回答三个问题：改了什么、为什么重要、它如何影响真实工作流。",
+    "title": "ContextGo 产品刊物与操作说明",
+    "description": "这里公开解释 ContextGo 的产品模型、远程访问边界和发布运维判断，让官网叙事、产品行为与真实交付链路保持一致。",
+    "featuredLabel": "刊物说明",
+    "featuredDescription": "每篇文章都应该回答三个问题：ContextGo 选择了什么边界、它会怎样影响真实使用，以及为什么它对发布或运维同样重要。",
     "entries": [
       {
         "slug": "context-before-agents",
         "eyebrow": "产品模型",
         "title": "为什么 ContextGo 先做上下文，再谈 Agent",
-        "summary": "这个产品不是先造一个聊天框，而是先把工作上下文接通，让 Agent 能真正进入现实工作流。",
-        "readingTime": "4 分钟",
+        "summary": "ContextGo 的真正起点不是一个聊天框，而是一层把文件、任务、文档、渠道和运行时状态接通的工作上下文。",
+        "readingTime": "7 分钟",
         "publishedAt": "2026-03-30"
       },
       {
         "slug": "release-operations-source-of-truth",
         "eyebrow": "发布运维",
         "title": "发布运维应该统一收口到 contextgo-releases",
-        "summary": "当官网、下载中心和桌面端更新都读取同一个 release 仓库时，产品版本事实来源才会真正清晰。",
-        "readingTime": "5 分钟",
+        "summary": "官网下载、GitHub Release 和桌面端更新都应该读取同一个事实来源，否则用户无法判断哪个版本才是真的。",
+        "readingTime": "7 分钟",
         "publishedAt": "2026-03-30"
       },
       {
         "slug": "desktop-host-mobile-client",
         "eyebrow": "远程产品",
         "title": "桌面主机，移动端客户端，这个产品模型要说清楚",
-        "summary": "只有当用户理解桌面端仍是主机、移动端仍是远程控制面时，远程访问能力才会真正显得一致。",
-        "readingTime": "5 分钟",
+        "summary": "远程访问要成立，前提是产品先明确：桌面端继续是真正的执行主机，移动端和浏览器继续是远程客户端。",
+        "readingTime": "7 分钟",
         "publishedAt": "2026-03-30"
       }
     ]
