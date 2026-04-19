@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "locale": "en",
-  "exportedAt": "2026-04-11T17:09:31.076Z",
-  "sourceRef": "0acc7706",
+  "exportedAt": "2026-04-19T03:44:35.012Z",
+  "sourceRef": "eeb6954208751b540f20c0339b09a2881f524ce5",
   "docs": {
     "badge": "Documentation",
     "title": "ContextGo Docs",
@@ -53,6 +53,15 @@
         "summary": "Use the agent surface to start work, manage assistants as reusable definitions, and keep runtime management separate from task entry.",
         "readingTime": "7 min",
         "updatedAt": "2026-04-12",
+        "category": "features"
+      },
+      {
+        "slug": "agent-packages",
+        "eyebrow": "Agent",
+        "title": "Understand agent packages and workspace installation",
+        "summary": "Treat built-in assistants as installable capability bundles, understand how they land in .contextgo, and why runtime directories only project skills.",
+        "readingTime": "9 min",
+        "updatedAt": "2026-04-14",
         "category": "features"
       },
       {

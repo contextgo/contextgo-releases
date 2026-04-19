@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "locale": "zh",
-  "exportedAt": "2026-04-11T17:09:31.076Z",
-  "sourceRef": "0acc7706",
+  "exportedAt": "2026-04-19T03:44:35.012Z",
+  "sourceRef": "eeb6954208751b540f20c0339b09a2881f524ce5",
   "docs": {
     "badge": "文档中心",
     "title": "ContextGo 文档",
@@ -53,6 +53,15 @@
         "summary": "在 Agent 页面开始工作，在 Assistants 中维护可复用定义，并把运行时管理与任务入口区分开来。",
         "readingTime": "7 分钟",
         "updatedAt": "2026-04-12",
+        "category": "features"
+      },
+      {
+        "slug": "agent-packages",
+        "eyebrow": "Agent",
+        "title": "理解 Agent Packages 与工作空间安装",
+        "summary": "把内置 Assistant 理解为可安装的能力包，理解它如何落到 .contextgo，以及为什么运行时目录只做 skills 投影。",
+        "readingTime": "9 分钟",
+        "updatedAt": "2026-04-14",
         "category": "features"
       },
       {
